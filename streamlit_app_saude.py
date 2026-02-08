@@ -163,3 +163,4 @@ elif opcao == "Login Profissional":
                 st.markdown(f"### {p['perfil']['nome']}")
                 exibir_historico(p)
         else:
+            st.error("Senha incorreta.")
